@@ -15,3 +15,6 @@ peak.type: five methods to count the time.
 * 2x16H: **16h / weekend or NERC holiday**.
 * 7x8: **8h / day**.
   
+Note:   
+There's some difference between the reference () and the results of my function. It is due to the difference date of some holidays.
+For example, the reference calendar gives 416 for December, 2022 but my function returns 432. It is due to the reference sets Chrismas on 12/26/2022 and my Chrismas is defined on 12/25/2022.
