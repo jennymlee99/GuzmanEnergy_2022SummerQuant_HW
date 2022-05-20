@@ -24,6 +24,12 @@ returns the number of hours of the month and calculate its number of peak days.
 3. get_hours(iso, peak_type, period)
 returns the number of hours of the period and calculate its number of peak days.
   
-### Note:   
+### note:   
 There's some difference between the reference () and the results of my function. It is due to the difference date of some holidays.
 For example, the reference calendar gives 416 for December, 2022 but my function returns 432. It is due to the reference sets Chrismas on 12/26/2022 and my Chrismas is defined on 12/25/2022.
+
+### references:
+https://www.nerc.com/comm/OC/RS%20Agendas%20Highlights%20and%20Minutes%20DL/Additional_Off-peak_Days.pdf
+https://en.wikipedia.org/wiki/Daylight_saving_time
+https://www.geeksforgeeks.org/python-holidays-library/
+https://en.wikipedia.org/wiki/Regional_transmission_organization_(North_America)
