@@ -41,12 +41,13 @@ Load two csv files into dataframe.
 
 ### 2. Merge the data by hour
 
-### 3. Merge two datasets
+### 3. Merge two datasets and output with a sum column
 Assume the date in the first dataset is in 2013 as well.
 
 ### 4. Visualization and Analysis
 
 #### 4.1 Extreme Values
+![plot](/Users/lizhenni/Documents/Career/GuzmanEnergy_2022SummerQuant_HW/output/Daily Consumptions.png)
 ##### 4.1.1 Summer season
 The plot shows, during Jun 7th to Aug 4th, the total consumption is extremely high. Further explore the houly pattern of this period, the peak is around 11pm. So we can assume it's due to the consumption of air conditioning in the hot days.    
 The extreme consumption is of the newly added appliance.
