@@ -48,9 +48,12 @@ Assume the date in the first dataset is in 2013 as well.
 
 #### 4.1 Extreme Values
 ![](/output/Daily%20Consumptions.png)
+
 ##### 4.1.1 Summer season
 The plot shows, during Jun 7th to Aug 4th, the total consumption is extremely high. Further explore the houly pattern of this period, the peak is around 11pm. So we can assume it's due to the consumption of air conditioning in the hot days.    
 The extreme consumption is of the newly added appliance.
+![](/output/Average%20consumptions%20of%20each%20hour%20in%20summer.png)
+
 ##### 4.1.2 Sep 12th
 The peak of Sep 12th is during 7am to 10am and also due to the consumption of the newly added appliance.
 
@@ -59,6 +62,8 @@ The peak of Sep 12th is during 7am to 10am and also due to the consumption of th
 In the summer season(Jun-Aug), the peak of a day is around 11pm.
 ##### 4.2.2 Other seasons
 The peak values are in the morning(6am - 9am) and in the early night(18pm-22pm).
+![](/output/Average%20consumptions%20of%20each%20hour%20in%20other%20seasons.png)
 
 #### 4.3 Weekly pattern
 Average consumption of a week is getting lower in the weekdays(Mon-Fri), and reaches the peak in weekends.
+![](/output/Average%20consumptions%20of%20each%20weekday.png)
