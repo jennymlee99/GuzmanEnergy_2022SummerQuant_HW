@@ -33,3 +33,31 @@ https://www.nerc.com/comm/OC/RS%20Agendas%20Highlights%20and%20Minutes%20DL/Addi
 https://en.wikipedia.org/wiki/Daylight_saving_time
 https://www.geeksforgeeks.org/python-holidays-library/
 https://en.wikipedia.org/wiki/Regional_transmission_organization_(North_America)
+
+## Assignment 2: Meter Data formatting
+
+### 1. Loading Datasets with Pandas
+Load two csv files into dataframe.
+
+### 2. Merge the data by hour
+
+### 3. Merge two datasets
+Assume the date in the first dataset is in 2013 as well.
+
+### 4. Visualization and Analysis
+
+#### 4.1 Extreme Values
+##### 4.1.1 Summer season
+The plot shows, during Jun 7th to Aug 4th, the total consumption is extremely high. Further explore the houly pattern of this period, the peak is around 11pm. So we can assume it's due to the consumption of air conditioning in the hot days.    
+The extreme consumption is of the newly added appliance.
+##### 4.1.2 Sep 12th
+The peak of Sep 12th is during 7am to 10am and also due to the consumption of the newly added appliance.
+
+#### 4.2 Hourly pattern
+##### 4.2.1 Summer season
+In the summer season(Jun-Aug), the peak of a day is around 11pm.
+##### 4.2.2 Other seasons
+The peak values are in the morning(6am - 9am) and in the early night(18pm-22pm).
+
+#### 4.3 Weekly pattern
+Average consumption of a week is getting lower in the weekdays(Mon-Fri), and reaches the peak in weekends.
