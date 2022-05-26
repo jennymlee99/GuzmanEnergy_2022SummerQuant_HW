@@ -34,6 +34,8 @@ https://en.wikipedia.org/wiki/Daylight_saving_time
 https://www.geeksforgeeks.org/python-holidays-library/
 https://en.wikipedia.org/wiki/Regional_transmission_organization_(North_America)
 
+
+
 ## Assignment 2: Meter Data formatting
 
 ### 1. Loading Datasets with Pandas
@@ -69,7 +71,7 @@ Average consumption of a week is getting lower in the weekdays(Mon-Fri), and rea
 ![](/output/Average%20consumptions%20of%20each%20weekday.png)
 
 
-## Assignment3: EDA and forecast model
+## Assignment 3: EDA and forecast model
 
 ### 1. EDA
 
@@ -131,3 +133,10 @@ We can tell from the plot that the lr-predicted prices with `lag` is highly over
 https://stackoverflow.com/a/49238256/5769929
 https://www.kaggle.com/code/maricinnamon/store-sales-time-series-forecast-visualization#3.1.-Linear-Regression
 https://www.machinelearningplus.com/time-series/time-series-analysis-python/
+
+
+## Assignment 4: Learn products of Futures
+
+### Self-learning of market products
+
+* **Product 1: Power Futures - ERN**:
