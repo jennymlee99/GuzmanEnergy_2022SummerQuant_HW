@@ -137,7 +137,7 @@ https://www.machinelearningplus.com/time-series/time-series-analysis-python/
 
 ## Assignment 4: Learn products of Futures
 
-### Self-learning of market products
+### Self-learning of market product terms
 
 #### Product 1: Power Futures - ERN
 * Description: 
@@ -161,7 +161,7 @@ Similarly.
     * Firm energy with Liquidated Damages;
     * Physical delivered.
 * Schedule: All peak hours, hours ending 0700-2200 in CPT time zone, in non-NERC holiday weekdays.
-* sd
+* Daily Settlement and Final Settlement: 
     * **Def of daily settlement**: Daily settlement refers to the contract’s settlement price on a daily basis, used to manage daily profit and loss, while final settlement represents the final value of the contract at expiration.
 
 
