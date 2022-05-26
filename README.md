@@ -139,4 +139,14 @@ https://www.machinelearningplus.com/time-series/time-series-analysis-python/
 
 ### Self-learning of market products
 
-* **Product 1: Power Futures - ERN**:
+#### Product 1: Power Futures - ERN:
+* Description: 
+    * monthly cash settled,
+    * based upon the average the peak hourly electricity prices published by ERCOT.
+* Settlement Method: Cash settlement
+    * **Def of Cash settlement**: upon expiration or exercise, instead of delivering the actual (physical) asset, the seller transfers the associated cash position.
+* Minimum Price Fluctuation: $0.01 per MWh
+    * **Def of Minimum price fluctuation**: the smallest increment of price movement possible in trading a given contract, referred to as a tick. 
+        * There are three different types of tick, plus, minus, and zero. A plus tick is when the price of the security is higher than the price it was bought at, a minus tick is when the price of a security is lower than what it was bought at, and a zero tick is when the price is the same. 
+* Listing Circle: Up to 50 consecutive monthly Contract Periods
+    * **Def of Listing circle**: the period for which the futures contract trades on an exchange.
