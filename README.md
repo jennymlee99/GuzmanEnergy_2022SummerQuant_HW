@@ -71,6 +71,26 @@ Average consumption of a week is getting lower in the weekdays(Mon-Fri), and rea
 
 ## Assignment3: EDA and forecast model
 
+### 1. EDA
+
+#### 1.1 Data Cleaning
+* Drop the duplicates;
+* Replace Nans with 0;
+* Encode `PeakType` and `MONTH`.
+
+#### 1.2 Data insights and statistcs
+* The dataset comprises of 14986 observations and 12 characteristics.
+* There are three types of peak: weekday, weekend, off-peak.
+* `HB_NORTH (RTLMP)`: There is notably a large difference between 75% quantile and max value, suggesting that there are extreme value, Outliers.
+* `ERCOT (GENERATION_SOLAR_RT)`: Not only there's a large difference between max and 75% q, but also the mean value is much larger than median value, indicating there are outliers.
+
+#### 1.3 Data Visualization
+(Here shows just some informative plots. For more details, plz check the jupyter notebook!)
+
+
+
+
 ### references:
 https://stackoverflow.com/a/49238256/5769929
 https://www.kaggle.com/code/maricinnamon/store-sales-time-series-forecast-visualization#3.1.-Linear-Regression
+https://www.machinelearningplus.com/time-series/time-series-analysis-python/
