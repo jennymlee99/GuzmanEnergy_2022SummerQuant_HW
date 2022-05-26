@@ -86,9 +86,46 @@ Average consumption of a week is getting lower in the weekdays(Mon-Fri), and rea
 
 #### 1.3 Data Visualization
 (Here shows just some informative plots. For more details, plz check the jupyter notebook!)
+<br/><br/>
 
+![](/output/Monthly%20trend%20of%20rt%20price%20in%202017%20and%202018.png)
+* Clearly, the pattern repeats within both 2017 and 2018.
+* Generally, the price increases from 2017 to 2017.
+<br/><br/>
 
+![](/output/Trend%20in%20different%20time%20frames.png)
+* Hour: From 5am to 18pm, the price is increasing and reach the peak at 18pm.
+* Peaktype: 'weekday' has the highest price and 'offpeak' has the lowest.
+* Month: From January to March and from August to November, the price is decreasing and reach the lowest price of the year in March; From April to July, it's increasing. The price is relatively high in Summer and reaches the highest in July.
+* Year: The average price grows from 2017 to 2018.
+<br/><br/>
 
+![](/output/Monthly%20and%20Yearly%20outliers.png)
+* There are some outliers in January, February, April, October, November and December.
+* There are outliers in 2017, but not in 2018.
+
+### 2. Forecast model to predict RTLMP
+
+#### 2.1 Trend
+![](/output/365-Day%20Moving%20Average%20of%20Prices.png)
+
+#### 2.2 Seasonality
+![](/output/Seasonality.png)
+![](/output/Frequency%20Components.png)
+
+#### 2.2 With `lag` feature
+![](/output/lags%20plot.png)
+With this plot shows, choose **`lags` = 1**.
+
+#### 2.4 Linear Regression
+![](/output/Rt%20and%20Predicted%20Prices%20with%20lr%20and%20lags.png)
+We can tell from the plot that the lr-predicted prices with `lag` is highly overlapping the real time price.
+
+#### 2.5 Forecasting Model with `lag`
+* **Data**: Split data into training and validation sets, with validation having **3000** rows, which is almost 20% of the data.
+* **Model**: **LinearRegression(fit_intercept=False)**, to set the y-intercept to 0.
+* **Evaluation**: The training RMSLE is **0.068** and validation RMSLE is **0.114**. Both are relatively small, proving that this model gives a good forecasting!!!
+![](/output/Forecast.png)
 
 ### references:
 https://stackoverflow.com/a/49238256/5769929
