@@ -139,14 +139,35 @@ https://www.machinelearningplus.com/time-series/time-series-analysis-python/
 
 ### Self-learning of market products
 
-#### Product 1: Power Futures - ERN:
+#### Product 1: Power Futures - ERN
 * Description: 
     * monthly cash settled,
     * based upon the average the peak hourly electricity prices published by ERCOT.
 * Settlement Method: Cash settlement
     * **Def of Cash settlement**: upon expiration or exercise, instead of delivering the actual (physical) asset, the seller transfers the associated cash position.
+* Contract size: 1 MW
+    * **Def of Contract size**: the minimum quantity of an asset that one needs to buy or sell to trade in futures.
 * Minimum Price Fluctuation: $0.01 per MWh
     * **Def of Minimum price fluctuation**: the smallest increment of price movement possible in trading a given contract, referred to as a tick. 
         * There are three different types of tick, plus, minus, and zero. A plus tick is when the price of the security is higher than the price it was bought at, a minus tick is when the price of a security is lower than what it was bought at, and a zero tick is when the price is the same. 
 * Listing Circle: Up to 50 consecutive monthly Contract Periods
     * **Def of Listing circle**: the period for which the futures contract trades on an exchange.
+
+#### Product 2: Natural Gas Futures - H
+Similarly.
+
+#### Product 3: Heat Rate Futures - XPR
+* Description: 
+    * Firm energy with Liquidated Damages;
+    * Physical delivered.
+* Schedule: All peak hours, hours ending 0700-2200 in CPT time zone, in non-NERC holiday weekdays.
+* sd
+    * **Def of daily settlement**: Daily settlement refers to the contract’s settlement price on a daily basis, used to manage daily profit and loss, while final settlement represents the final value of the contract at expiration.
+
+
+
+### references:
+https://www.businesstoday.in/magazine/basics/story/futures-terms-15618-2010-11-25
+https://www.investopedia.com/terms/c/cashsettlement.asp#:~:text=A%20cash%20settlement%20is%20a,transfers%20the%20associated%20cash%20position
+https://www.youtube.com/watch?v=LJdC84D97SI
+https://www.cmegroup.com/education/courses/introduction-to-equity-index-products/understanding-equity-index-daily-and-final-settlement.html
