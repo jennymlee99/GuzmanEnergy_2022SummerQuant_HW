@@ -67,3 +67,10 @@ The peak values are in the morning(6am - 9am) and in the early night(18pm-22pm).
 #### 4.3 Weekly pattern
 Average consumption of a week is getting lower in the weekdays(Mon-Fri), and reaches the peak in weekends.          
 ![](/output/Average%20consumptions%20of%20each%20weekday.png)
+
+
+## Assignment3: EDA and forecast model
+
+### references:
+https://stackoverflow.com/a/49238256/5769929
+https://www.kaggle.com/code/maricinnamon/store-sales-time-series-forecast-visualization#3.1.-Linear-Regression
