@@ -25,7 +25,7 @@ returns the number of hours of the month and calculate its number of peak days.
 returns the number of hours of the period and calculate its number of peak days.
   
 ### note:   
-There's some difference between the reference () and the results of my function. It is due to the difference date of some holidays.
+There's some difference between the reference () and the results of my function. It is due to the different date of some holidays.
 For example, the reference calendar gives 416 for December, 2022 but my function returns 432. It is due to the reference sets Chrismas on 12/26/2022 and my Chrismas is defined on 12/25/2022.
 
 ### references:
