@@ -133,7 +133,8 @@ We can tell from the plot that the lr-predicted prices with `lag` is highly over
 https://stackoverflow.com/a/49238256/5769929         
 https://www.kaggle.com/code/maricinnamon/store-sales-time-series-forecast-visualization#3.1.-Linear-Regression           
 https://www.machinelearningplus.com/time-series/time-series-analysis-python/         
-https://www.statsmodels.org/devel/examples/notebooks/generated/deterministics.html
+https://www.statsmodels.org/devel/examples/notebooks/generated/deterministics.html   
+https://machinelearningmastery.com/time-series-seasonality-with-python/#:~:text=The%20model%20of%20seasonality%20can,referred%20to%20as%20non%2Dstationary.
 
 
 ## Assignment 4: Learn products of Futures
