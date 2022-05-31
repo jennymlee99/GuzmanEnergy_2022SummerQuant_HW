@@ -29,9 +29,9 @@ There's some difference between the reference () and the results of my function.
 For example, the reference calendar gives 416 for December, 2022 but my function returns 432. It is due to the reference sets Chrismas on 12/26/2022 and my Chrismas is defined on 12/25/2022.
 
 ### references:
-https://www.nerc.com/comm/OC/RS%20Agendas%20Highlights%20and%20Minutes%20DL/Additional_Off-peak_Days.pdf
-https://en.wikipedia.org/wiki/Daylight_saving_time
-https://www.geeksforgeeks.org/python-holidays-library/
+https://www.nerc.com/comm/OC/RS%20Agendas%20Highlights%20and%20Minutes%20DL/Additional_Off-peak_Days.pdf         
+https://en.wikipedia.org/wiki/Daylight_saving_time         
+https://www.geeksforgeeks.org/python-holidays-library/         
 https://en.wikipedia.org/wiki/Regional_transmission_organization_(North_America)
 
 
@@ -130,9 +130,10 @@ We can tell from the plot that the lr-predicted prices with `lag` is highly over
 ![](/output/Forecast.png)
 
 ### references:
-https://stackoverflow.com/a/49238256/5769929
-https://www.kaggle.com/code/maricinnamon/store-sales-time-series-forecast-visualization#3.1.-Linear-Regression
-https://www.machinelearningplus.com/time-series/time-series-analysis-python/
+https://stackoverflow.com/a/49238256/5769929         
+https://www.kaggle.com/code/maricinnamon/store-sales-time-series-forecast-visualization#3.1.-Linear-Regression           
+https://www.machinelearningplus.com/time-series/time-series-analysis-python/         
+https://www.statsmodels.org/devel/examples/notebooks/generated/deterministics.html
 
 
 ## Assignment 4: Learn products of Futures
